@@ -87,7 +87,7 @@ class _MapDisplayScreenState extends State<MapDisplayScreen> {
           : GoogleMap(
               mapType: locationProvider.currentMapType,
               initialCameraPosition: CameraPosition(
-                target: locationProvider.initialPosition,
+                target: locationProvider.initialPosition ?? LatLng(37.7749, -122.4194),
                 zoom: 12.0,
               ),
               markers: markers,
