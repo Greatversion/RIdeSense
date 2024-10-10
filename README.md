@@ -1,4 +1,4 @@
-# Flutter Map Application
+# Ridesense Application
 
 A Flutter application that displays a map using Google Maps, allows users to search for locations, view their current location, and display markers with custom info windows.
 
